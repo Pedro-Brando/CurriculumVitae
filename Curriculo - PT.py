@@ -129,8 +129,13 @@ pdf.section_separator()
 
 pdf.chapter_title('Certificações e Cursos Complementares:')
 certificacoes = [
-    "CCNA: Switching, Routing, and Wireless Essentials - Cisco (Emitido em Junho de 2024)",
-    "CCNA: Introduction to Networks - Cisco (Emitido em Dezembro de 2023)"
+    "CCNA: Switching, Routing, and Wireless Essentials - Cisco (Issued in June 2024)",
+    "CCNA: Introduction to Networks - Cisco (Issued in December 2023)",
+    "IT Essentials: PC Hardware and Software - Cisco (Issued in June 2020)",
+    "CSJ: Desenvolvimento Unity - Crie seus Jogos (Isued in July 2024)",
+    "CSJ: Game On (Multiplayer) - Crie seus Jogos (Isued in July 2024)",
+    "CSJ: Game Design - Crie seus Jogos (Isued in July 2024)",
+    "CSJ: Design de Jogos 2D - Crie seus Jogos (Isued in July 2024)",
 ]
 for cert in certificacoes:
     pdf.chapter_body(f"- {cert}")
